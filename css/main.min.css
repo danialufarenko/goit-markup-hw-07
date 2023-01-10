@@ -151,8 +151,6 @@ header .container {
   bottom: -33px;
 }
 
-
-
 .header-tel {
   font-weight: 500;
   font-size: 14px;
@@ -258,10 +256,10 @@ header .container {
 .text {
   padding: 95px 0;
 }
-.list-text {
+.text-list {
   display: flex;
 }
-.text-items:not(:last-child) {
+.text-list-items:not(:last-child) {
   margin-right: var(--main-margin);
 }
 .text-elements {
@@ -332,7 +330,7 @@ header .container {
   top: 0;
   transform: translateY(320%);
 }
-.work-items:not(:last-child) {
+.work-list-items:not(:last-child) {
   margin-right: var(--main-margin);
 }
 /*------------TEAM------------*/
@@ -679,11 +677,11 @@ header .container {
   margin-bottom: 50px;
   text-align: center;
 }
-.list-main {
+.main-list2 {
   display: flex;
   flex-wrap: wrap;
 }
-.item {
+.list-item {
   width: calc((100% - 60px) / 3);
   margin-left: 20px;
   margin-bottom: 30px;
@@ -691,11 +689,11 @@ header .container {
 
   transition: box-shabow 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.item:hover {
+.list-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.item:hover .item-cover-text {
+.list-item:hover .item-cover-text {
   transform: translateY(0);
 }
 .item-img {
