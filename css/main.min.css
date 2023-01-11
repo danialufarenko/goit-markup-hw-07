@@ -197,7 +197,7 @@ header .container {
 
 /*------------HERO------------*/
 
-.hero-container {
+.hero__container {
   padding: 200px 0;
   max-width: 1600px;
   min-width: 1200px;
@@ -212,7 +212,7 @@ header .container {
   background-position: center;
   background-color: #2f303a;
 }
-.hero-title {
+.hero__title {
   font-family: inherit;
   font-style: normal;
   background-color: #2f303a;
@@ -231,7 +231,7 @@ header .container {
   height: 120px;
   margin: 0 auto;
 }
-.hero-btn {
+.hero__btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -248,21 +248,21 @@ header .container {
   margin: 30px auto;
   padding: 10px 24px;
 }
-.hero-btn:hover,
-.hero-btn:focus {
+.hero__btn:hover,
+.hero__btn:focus {
   background-color: var(--accent-color);
 }
 /*------------TEXT------------*/
 .text {
   padding: 95px 0;
 }
-.text-list {
+.text__list {
   display: flex;
 }
-.text-list-items:not(:last-child) {
+.text__list_items:not(:last-child) {
   margin-right: var(--main-margin);
 }
-.text-elements {
+.text__elements {
   width: 270px;
   height: 120px;
   display: flex;
@@ -271,10 +271,10 @@ header .container {
   justify-content: center;
   align-items: center;
 }
-.text-elements:not(:last-child) {
+.text__elements:not(:last-child) {
   margin: 0 0 30px 0;
 }
-.text-titles {
+.text__titles {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -283,7 +283,7 @@ header .container {
   color: #212121;
   padding-bottom: 10px;
 }
-.text-pre-titles {
+.text__pre_titles {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -648,6 +648,9 @@ header .container {
 .main {
   padding: 94px;
 }
+.main-link:not(:last-child) {
+  margin-right: 8px;
+}
 .main-button {
   font-family: inherit;
   font-style: normal;
@@ -675,6 +678,9 @@ header .container {
 }
 .main-list {
   margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 .main-list2 {
